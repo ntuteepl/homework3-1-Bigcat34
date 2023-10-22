@@ -1,10 +1,6 @@
 #include <stdio.h>
 
 // 比較使用者輸入與答案，計算A和B的數量
-
-#include <stdio.h>
-
-// 比較使用者輸入與答案，計算A和B的數量
 void compareInput(int answer[], int guess[], int *A, int *B) {
     *A = *B = 0;
 
@@ -36,25 +32,20 @@ int main() {
 
         while ( k = scanf("%1d%1d%1d%1d", &guess[0], &guess[1], &guess[2], &guess[3])  ) {
             // 提示使用者猜數字
-
-            //scanf("%1d%1d%1d%1d", &guess[0], &guess[1], &guess[2], &guess[3] != EOF);
-              // 判斷是否結束
-
             if (guess[0] == 0 && guess[1] == 0 && guess[2] == 0 & guess[3] == 0) {
                 printf("%s","STOP");
                 break;
             }
             // 比較輸入與答案
             compareInput(answer, guess, &A, &B);
-
+                j++;
             // 顯示結果
             printf("%dA%dB\n", A, B);
-            j++;
-            // 判斷是否猜中
-            if (j == 20) {
-            
+            if(j == 20)
+            {
                 break;
             }
-             break;
+
         }
     }
+}
