@@ -27,6 +27,5 @@ int main() {
     }
     // 輸出結果
     printf("%d", neededBuses);
-
     return 0;
 }
