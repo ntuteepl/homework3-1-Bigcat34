@@ -40,7 +40,7 @@ int main() {
             //scanf("%1d%1d%1d%1d", &guess[0], &guess[1], &guess[2], &guess[3] != EOF);
               // 判斷是否結束
 
-            if (guess[0] == 0) {
+            if (guess[0] == 0 && guess[1] == 0 && guess[2] == 0 & guess[3] == 0&) {
                // printf("%s","STOP");
                 break;
             }
