@@ -26,7 +26,7 @@ int main() {
 
     int answer[4];
     int guess[4];
-    int A, B, k =1;
+    int A, B, k =1,j=0;
 
     while (1) {
         // 讀入一連串的4位數字，第一個為答案
@@ -49,11 +49,11 @@ int main() {
 
             // 顯示結果
             printf("%dA%dB\n", A, B);
-
+            j++;
             // 判斷是否猜中
-           // if (A == 4) {
-            //    printf("%d%d%d%d\n", answer[0], answer[1], answer[2], answer[3]);
-            //    break;
+            if (j == 20) {
+            
+                break;
             }
              break;
         }
