@@ -41,7 +41,7 @@ int main() {
               // 判斷是否結束
 
             if (guess[0] == 0) {
-                printf("%s","STOP");
+               // printf("%s","STOP");
                 break;
             }
             // 比較輸入與答案
