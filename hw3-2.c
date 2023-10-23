@@ -4,8 +4,6 @@ main()
     scanf("%d %d %d %d %d %d",&s1,&d1,&s2,&d2,&s3,&d3);
     int slist[] = {s1,s2,s3};
     int dlist[] = {d1,d2,d3};
-
-printf("%d %d %d %d %d %d\n",slist[0],dlist[0],slist[1],dlist[1],slist[2],dlist[2]);
     void swap(int *a, int *b) {
     int temp = *a;
     *a = *b;
@@ -29,7 +27,5 @@ printf("%d %d %d %d %d %d\n",slist[0],dlist[0],slist[1],dlist[1],slist[2],dlist[
     {
         car = 2 ;
     }
-
-    printf("%d %d %d %d %d %d\n",slist[0],dlist[0],slist[1],dlist[1],slist[2],dlist[2]);
     printf("%d",car);
 }
