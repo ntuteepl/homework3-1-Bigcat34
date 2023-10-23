@@ -7,7 +7,6 @@ main()
     int dlist[] = {d1,d2,d3};
      for (int i = 0 ; i < 3 ; i++)
     {
-
         if (car == 1)
         {
         break;
