@@ -36,7 +36,6 @@ main()
 
             }
         }
-
     }
     printf("%d",car);
 }
